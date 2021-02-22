@@ -14,6 +14,8 @@ This particular analysis aims to understand and visualize the impact that launch
 To visualize what role a campaign's Launch Date plays in its outcome:
 1. We first made sure the data was in a readable format and converted Unix Timestamps to Date format using the following equation: 
 
+![date](https://user-images.githubusercontent.com/79415699/108647945-e49f8a80-7487-11eb-8ff4-e82e4f00e7be.JPG)
+
 2. Used Year() function on the converted Launch Date column to extract the year. 
 3. Created a pivot table based on "parent Category" and "Years", then filter the category to "theatre".
 5. Created a line chart from the pivot table to visualize the relationship between outcomes and launch month. 
@@ -23,7 +25,11 @@ To visualize what role a campaign's Launch Date plays in its outcome:
 To analyze the relationship between outcomes and goals:
 1. We needed to sort through the data and look at the % of successful, failed and canceled plays based on goal ranges, the table had the following layout:
 
+![table](https://user-images.githubusercontent.com/79415699/108647933-de111300-7487-11eb-8795-1b11a6d0d2e9.JPG)
+
 2. Used COUNTIFS() function to filter the data based on the specified goal ranges, subcategory ('plays'), and the outcome ('successful','failed','canceled') in columns B,C and D respectively. 
+
+![countifs()](https://user-images.githubusercontent.com/79415699/108647954-e9fcd500-7487-11eb-88ef-7a67e5ddf090.JPG)
 
 
 ### Challenges and Difficulties Encountered
