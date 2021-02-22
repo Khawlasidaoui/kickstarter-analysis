@@ -6,7 +6,7 @@ The project uses Excel to organize, sort and analyze several thousand crowdfundi
 
 ### Purpose
 
-This particular analysis aims to understand and visualize the impact that launch dates and funding goals has on the outcome of different campaigns in the Theatre/plays category.
+This particular analysis aims to understand and visualize the impact that launch dates and funding goals havee on the outcome of different campaigns in the Theatre/plays category.
 
 ## Analysis and Challenges
 
@@ -14,9 +14,9 @@ This particular analysis aims to understand and visualize the impact that launch
 To visualize what role a campaign's Launch Date plays in its outcome:
 1. We first made sure the data was in a readable format and converted Unix Timestamps to Date format using the following equation: 
 
-2. Used Year() fundtion on the converted Launch Date column to extract the year. 
-3. Create a pivot table based on "parent Category" and "Years", then filter the category to "theatre".
-5. Create a line chart from the pivot table to visualize the relationship between outcomes and launch month. 
+2. Used Year() function on the converted Launch Date column to extract the year. 
+3. Created a pivot table based on "parent Category" and "Years", then filter the category to "theatre".
+5. Created a line chart from the pivot table to visualize the relationship between outcomes and launch month. 
 
 
 ### Analysis of Outcomes Based on Goals
@@ -27,10 +27,12 @@ To analyze the relationship between outcomes and goals:
 
 
 ### Challenges and Difficulties Encountered
+* Initial cleanup of data and converting it into a readable format (Unix Timestamp).
+
 
 ## Results
 
-Conclusions you can draw about the Outcomes based on Launch Date:
+Conclusions about the Outcomes based on Launch Date:
 * The number of successful campaigns is the highest from April to August compared to the rest of the dataset, so a launch date in those months is recommended. 
 * Ratio of failed campaigns to successful ones is low from April to August compared to the ratio of failed/successful in other months. 
 * There is no information on number of canceled plays in October. 
