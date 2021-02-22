@@ -18,7 +18,13 @@ To visualize what role a campaign's Launch Date plays in its outcome:
 
 2. Used Year() function on the converted Launch Date column to extract the year. 
 3. Created a pivot table based on "Parent Category" and "Years", then filter the category to "theatre".
-5. Created a line chart from the pivot table to visualize the relationship between outcomes and launch month. 
+
+ ![pivot](https://user-images.githubusercontent.com/79415699/108649368-2978f080-748b-11eb-8bd6-cf37283d8baa.JPG)
+ 
+4. Created a line chart from the pivot table to visualize the relationship between outcomes and launch month. 
+
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/79415699/108649354-23830f80-748b-11eb-850d-cb6b5d05203d.png)
+
 
 
 ### Analysis of Outcomes Based on Goals
@@ -31,6 +37,8 @@ To analyze the relationship between outcomes and goals:
 
 ![countifs()](https://user-images.githubusercontent.com/79415699/108647954-e9fcd500-7487-11eb-88ef-7a67e5ddf090.JPG)
 
+3. Created Line chart to visualize Outcome vs. Goals relationship
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/79415699/108649352-23830f80-748b-11eb-9eb6-13cb4ca5d10c.png)
 
 ### Challenges and Difficulties Encountered
 * Initial clean-up of data and converting it into a readable format (Unix Timestamp).
