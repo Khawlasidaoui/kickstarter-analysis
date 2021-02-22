@@ -6,7 +6,7 @@ The project uses Excel to organize, sort and analyze several thousand crowdfundi
 
 ### Purpose
 
-This particular analysis aims to understand and visualize the impact that launch dates and funding goals havee on the outcome of different campaigns in the Theatre/plays category.
+This particular analysis aims to understand and visualize the impact that launch dates and funding goals have on the outcome of different campaigns in the Theatre/plays category.
 
 ## Analysis and Challenges
 
@@ -17,7 +17,7 @@ To visualize what role a campaign's Launch Date plays in its outcome:
 ![date](https://user-images.githubusercontent.com/79415699/108647945-e49f8a80-7487-11eb-8ff4-e82e4f00e7be.JPG)
 
 2. Used Year() function on the converted Launch Date column to extract the year. 
-3. Created a pivot table based on "parent Category" and "Years", then filter the category to "theatre".
+3. Created a pivot table based on "Parent Category" and "Years", then filter the category to "theatre".
 5. Created a line chart from the pivot table to visualize the relationship between outcomes and launch month. 
 
 
@@ -33,7 +33,7 @@ To analyze the relationship between outcomes and goals:
 
 
 ### Challenges and Difficulties Encountered
-* Initial cleanup of data and converting it into a readable format (Unix Timestamp).
+* Initial clean-up of data and converting it into a readable format (Unix Timestamp).
 
 
 ## Results
@@ -49,7 +49,7 @@ Conclusion about the Outcomes based on Goals:
 * There's a 50 % chance the campaigns fail at points of intersection
 * Campaigns with goals <=$1000 are more likely to succeed, and are more likely to fail if their goals exceed $45000
 
-- Limitations of this dataset
+Limitations of this dataset
 * Looking at duration of the campaign might be as relevant as looking at the launch date. 
 * What could also be useful is studying any correlation between launch date and goal. 
 
